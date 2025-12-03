@@ -19,3 +19,10 @@ Le singleton est un pattern dont l'objectif est de n'avoir qu'une seule et même 
 
 ### 1.2. Factory
 La fabrique est un pattern dont l'objectif est de créer, pour nous, en fonction d'une logique une instance d'une classe.
+
+### 1.3. Prototype
+Le prototype est un pattern dont l'objectif est de créer des nouveaux objets à partir d'objet existant sans les rendre dépendants de leur classe source.
+Pour moi, le clone est un clone "profond" (deep clone) où chacune de ses propriétes est une autre différente de la propritété mère dont elle est issue.
+
+# Webographie
+[refactoring.guru](https://refactoring.guru/design-patterns)
