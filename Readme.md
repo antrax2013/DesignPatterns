@@ -24,5 +24,9 @@ La fabrique est un pattern dont l'objectif est de créer, pour nous, en fonction 
 Le prototype est un pattern dont l'objectif est de créer des nouveaux objets à partir d'objet existant sans les rendre dépendants de leur classe source.
 Pour moi, le clone est un clone "profond" (deep clone) où chacune de ses propriétes est une autre différente de la propritété mère dont elle est issue.
 
+### 1.4. Builder
+Le builder est un pattern dont l'objectif est de créer de nouveaux objets. Il est doté d'un directeur qui va réaliser étape par étape la construction de l'objet en fonction d'un "mode opératoire" que l'on va lui fournir.
+Habituellement, on aime chainer les étapes mais ce n'est pas obligatoire.
+
 # Webographie
 [refactoring.guru](https://refactoring.guru/design-patterns)
