@@ -28,5 +28,16 @@ Pour moi, le clone est un clone "profond" (deep clone) où chacune de ses proprié
 Le builder est un pattern dont l'objectif est de créer de nouveaux objets. Il est doté d'un directeur qui va réaliser étape par étape la construction de l'objet en fonction d'un "mode opératoire" que l'on va lui fournir.
 Habituellement, on aime chainer les étapes mais ce n'est pas obligatoire.
 
+## 2. Structure
+
+### 2.1. Adapter
+L'adaptater, ou adaptateur en français, est un pattern dont l'objectif est de transformer un objet en un autre pour que celui-ci soit compatbile avec les besoins de ton projet. 
+
+### 2.2. Bridge
+Le bridge, ou pont, est un pattern dont l'objectif est de représenter des variantes. L'idée étant de séparer des concepts différents, mais complémentaires, et de les combiner dynamiquement, permettant ainsi de réprésenter les différentes vairantes.
+
+### 2.3. Composite
+Le composite est un pattern dont l'objectif est de répresenter une hiérarchie d'objets. L'idée étant de traiter de la même façon un objet simple et un objet complexe composé d'autres objets.
+
 # Webographie
 [refactoring.guru](https://refactoring.guru/design-patterns)
