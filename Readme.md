@@ -1,32 +1,57 @@
-# Les design patterns
-L'objectif de ce repository est de proposer une implémentation modernisée des différents design patterns. 
-Les design patterns sont un ensemble de façon d'implémenter une soulution validée et reconnue comment étant la bonne approche 
-pour répondre à un besoin classique et récurrent du développement objet.
+ï»¿# Les design patterns
+L'objectif de ce repository est de proposer une implÃ©mentation modernisÃ©e des diffÃ©rents design patterns. 
+Les design patterns sont un ensemble de faÃ§on d'implÃ©menter une soulution validÃ©e et reconnue comment Ã©tant la bonne approche 
+pour rÃ©pondre Ã  un besoin classique et rÃ©current du dÃ©veloppement objet.
 
-Il y a 3 catégories de design patterns :
-- les patterns de création
+Il y a 3 catÃ©gories de design patterns :
+- les patterns de crÃ©ation
 - les patterns de comportementaux
 - les patterns de structure
 
 
-## 1. Création
-L'objectif de cette catégorie est d'instancier pour nous des objets.
+## 1. CrÃ©ation
+L'objectif de cette catÃ©gorie est d'instancier pour nous des objets.
 
 ### 1.1. Singleton
-Le singleton est un pattern dont l'objectif est de n'avoir qu'une seule et même instance d'un objet et qu'il gère lui même son cycle de vie. Ce pattern est décrié voir obsolète pour plusieurs raisons.
+Le singleton est un pattern dont l'objectif est de n'avoir qu'une seule et mÃªme instance d'un objet et qu'il gÃ¨re lui mÃªme son cycle de vie. Ce pattern est dÃ©criÃ© voir obsolÃ¨te pour plusieurs raisons.
 - il ne respecte pas le principe SRP de SOLID (cf. [repos SOLID](https://github.com/antrax2013/Solid))
-- avec les containers natifs de dépendances, on peut spécifier que l'instance est un singleton et donc autant passer par là que de réinventer la roue.
+- avec les containers natifs de dÃ©pendances, on peut spÃ©cifier que l'instance est un singleton et donc autant passer par lÃ  que de rÃ©inventer la roue.
 
 ### 1.2. Factory
-La fabrique est un pattern dont l'objectif est de créer, pour nous, en fonction d'une logique une instance d'une classe.
+La fabrique est un pattern dont l'objectif est de crÃ©er, pour nous, en fonction d'une logique une instance d'une classe.
 
 ### 1.3. Prototype
-Le prototype est un pattern dont l'objectif est de créer des nouveaux objets à partir d'objet existant sans les rendre dépendants de leur classe source.
-Pour moi, le clone est un clone "profond" (deep clone) où chacune de ses propriétes est une autre différente de la propritété mère dont elle est issue.
+Le prototype est un pattern dont l'objectif est de crÃ©er des nouveaux objets Ã  partir d'objet existant sans les rendre dÃ©pendants de leur classe source.
+Pour moi, le clone est un clone "profond" (deep clone) oÃ¹ chacune de ses propriÃ©tes est une autre diffÃ©rente de la propritÃ©tÃ© mÃ¨re dont elle est issue.
 
 ### 1.4. Builder
-Le builder est un pattern dont l'objectif est de créer de nouveaux objets. Il est doté d'un directeur qui va réaliser étape par étape la construction de l'objet en fonction d'un "mode opératoire" que l'on va lui fournir.
-Habituellement, on aime chainer les étapes mais ce n'est pas obligatoire.
+Le builder est un pattern dont l'objectif est de crÃ©er de nouveaux objets. Il est dotÃ© d'un directeur qui va rÃ©aliser Ã©tape par Ã©tape la construction de l'objet en fonction d'un "mode opÃ©ratoire" que l'on va lui fournir.
+Habituellement, on aime chainer les Ã©tapes mais ce n'est pas obligatoire.
+
+## 2. Structure
+
+### 2.1. Adapter
+L'adaptater, ou adaptateur en franÃ§ais, est un pattern dont l'objectif est de transformer un objet en un autre pour que celui-ci soit compatbile avec les besoins de ton projet. 
+
+### 2.2. Bridge
+Le bridge, ou pont, est un pattern dont l'objectif est de reprÃ©senter des variantes. L'idÃ©e Ã©tant de sÃ©parer des concepts diffÃ©rents, mais complÃ©mentaires, et de les combiner dynamiquement, permettant ainsi de rÃ©prÃ©senter les diffÃ©rentes vairantes.
+
+### 2.3. Composite
+Le composite est un pattern dont l'objectif est de rÃ©presenter une hiÃ©rarchie d'objets. L'idÃ©e Ã©tant de traiter de la mÃªme faÃ§on un objet simple et un objet complexe composÃ© d'autres objets.
+
+### 2.4. Decorator
+Le dÃ©corateur est un pattern dont l'objectif est d'Ã©tendre dynamiquement le comportement, ou les donnÃ©es, d'un objet sur le principe des poupÃ©es russes (âš ï¸ SRP). 
+
+### 2.5. FaÃ§ade
+La faÃ§ade est un pattern dont l'objectif est de fournir une interface simple pour agrÃ©ger des donnÃ©es provenant de diffÃ©rentes sources. L'idÃ©e Ã©tant de masquer la complexitÃ© du systÃ¨me et de fournir une interface plus facile Ã  utiliser.
+
+### 2.6. Flyweight
+Le flyweight, ou poids mouche, est un pattern dont l'objectif est de rÃ©duire la consommation de mÃ©moire en partageant des donnÃ©es communes entre plusieurs objets.
+
+### 2.7. Proxy
+Le proxy, ou mandataire, est un pattern dont l'objectif est de contrÃ´ler l'accÃ¨s Ã  un objet en interposant un objet intermÃ©diaire. 
+
+## 3. Comportementaux
 
 # Webographie
 [refactoring.guru](https://refactoring.guru/design-patterns)
